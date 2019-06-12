@@ -32,5 +32,7 @@ namespace sixagen.Models
         public virtual DbSet<Login> Login { get; set; }
         public virtual DbSet<Productos> Productos { get; set; }
         public virtual DbSet<Ventas> Ventas { get; set; }
+
+        public System.Data.Entity.DbSet<sixagen.Models.Cuenta> Cuentas { get; set; }
     }
 }
